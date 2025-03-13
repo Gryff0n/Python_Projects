@@ -1,0 +1,59 @@
+{
+    "users": [
+        {
+            "name": "admin",
+            "fname": "admin",
+            "bdate": "",
+            "adress": "",
+            "tel": "",
+            "mail": "contact@admin.com",
+            "password": "admin",
+            "username": "admin.admin",
+            "perm_type": "admin"
+        },
+        {
+            "name": "kakehashi",
+            "fname": "mirai",
+            "bdate": "2004-01-25",
+            "adress": "Tokyo, Shibuya",
+            "tel": "0245856215",
+            "mail": "Miraika@gmail.com",
+            "password": "Mieru2501",
+            "username": "mirai.kakehashi",
+            "perm_type": "member"
+        },
+        {
+            "name": "nathan",
+            "fname": "owner",
+            "bdate": "",
+            "adress": "",
+            "tel": "",
+            "mail": "contact@admin.com",
+            "password": "onthn",
+            "username": "owner.nathan",
+            "perm_type": "admin"
+        },
+        {
+            "name": "randriantsoa",
+            "fname": "nathan",
+            "bdate": "2003-01-25",
+            "adress": "Residence Normandi Paris ",
+            "tel": "0772985451",
+            "mail": "rnthn@gmail.com",
+            "password": "nr2005",
+            "username": "nathan.randriantsoa",
+            "perm_type": "member"
+        },
+        {
+            "name": "sama",
+            "fname": "danbluf",
+            "bdate": "2000-02-10",
+            "adress": "Chateau de Chamerolle",
+            "tel": "0611075588",
+            "mail": "dablufmagician@yahoo.com",
+            "password": "Dnbsama2000",
+            "username": "danbluf.sama",
+            "perm_type": "member"
+        }
+    ]
+}

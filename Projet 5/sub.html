@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="project_css/default.css"/>
+    <link rel="stylesheet" href="project_css/form.css"/>
+    <title>L'Aurora</title>
+</head>
+<action="Getinfos.php" method="POST"></action>
+<script src="./project_js/Getinfos.js"></script>
+<body>
+    <header>
+        <div class="topnav">
+            <a class="active" href="index.html">Home</a>
+            <a href="sub.html">S'inscrire</a>
+            <a href="login.php">Mon espace</a>
+        </div>
+    </header>
+    <br>
+    <div id="form">
+        <form action="./project_php/GetInfos.php" method="POST" name="info" onsubmit="return validate()">
+            <tr>
+                <label for="last_name">NOM : </label>
+                <input type="text" id="last_name" name="last_name"/>
+            </tr><br/><br/>
+            <tr>
+                <label for="first_name">Prénom : </label>
+                <input type="test"  id="first_name" name="first_name"/>
+            </tr><br/><br/>
+            <tr>
+                <label for="birth_date">Date de naissance : </label>
+                <input type="date" id="birth_date" name="birth_date"/>
+            </tr><br/><br/>
+            <tr>
+                <label for="adress">Adresse : </label>
+                <input type="text" id="adress" name="adress"/>
+            </tr><br/><br/>
+            <tr>
+                <label for="num">Numéro de téléphone</label>
+                <input type="number" id="tel" name="tel"/>
+            </tr><br/><br/>
+            <tr>
+                <label for="mail">Adresse mail : </label>
+                <input type="email" id="mail" name="mail"/>
+            </tr><br/><br/>
+            <tr>
+                <label for="password">Mot de passe : </label>
+                <input type="password" id="password" name="password"/>
+            </tr><br/><br/>
+            <input type="submit" onclick=validate()>
+            <div class="alert">
+                <font color=#ff0000>
+                <p id="alert"></p>
+                </font>
+            </div>
+        </form>
+    </div>
+    <div id="conditions">
+        <strong><p>A lire avant de remplire le formulaire :</p></strong>
+        <ul><li><p>Vous devez au moins avoir 18 ans.</p></li></ul>
+        <ul><li><p>Tous les champs de texte doivent etre remplis.</p></li></ul>
+        <ul><li><p>Rentrer des information correctes et valides.</p></li></ul>
+    </div>
+
+</body>
+</html>

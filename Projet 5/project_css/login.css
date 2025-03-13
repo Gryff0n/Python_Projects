@@ -1,0 +1,17 @@
+#Advice
+{
+   background-color:#f5f8fc;
+   border:1px solid #6090c0 ;
+   line-height:auto;
+   margin: auto;
+   width: 40%;
+   padding: 10px;
+   color:#000000;
+}
+
+#logger 
+{
+    margin: auto;
+    width: 25%;
+    padding: 10px;
+}
